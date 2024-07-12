@@ -1,0 +1,184 @@
+[
+    {
+      "id": 1,
+      "name": "Masni",
+      "weightHistory": {
+        "2014-03-12T13:37:27+00:00": 4.5,
+        "2014-03-13T13:10:00+00:00": 4.3
+      },
+      "details": {
+        "species": "Cat",
+        "breed": "Siamese",
+        "favoriteFood": "Salmon"
+      },
+      "pictureURL": "/assets/masni.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Buddy",
+      "weightHistory": {
+        "2018-06-10T09:20:15+00:00": 20.1,
+        "2018-06-15T14:05:00+00:00": 19.8
+      },
+      "details": {
+        "species": "Dog",
+        "breed": "Golden Retriever",
+        "favoriteFood": "Chicken"
+      },
+      "pictureURL": "/assets/buddy.png"
+    },
+    {
+      "id": 3,
+      "name": "Tweety",
+      "weightHistory": {},
+      "details": {
+        "species": "Bird",
+        "breed": "Canary",
+        "favoriteFood": "Seeds"
+      },
+      "pictureURL": "/assets/tweety.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Bella",
+      "weightHistory": {
+        "2019-03-14T08:30:00+00:00": 5.7,
+        "2019-03-21T08:45:00+00:00": 5.6,
+        "2019-03-28T09:00:00+00:00": 5.5
+      },
+      "details": {
+        "species": "Dog",
+        "breed": "Bulldog",
+        "favoriteFood": "Melone"
+      },
+      "pictureURL": "/assets/bella.png"
+    },
+    {
+      "id": 5,
+      "name": "Luna",
+      "weightHistory": {
+        "2020-08-18T07:15:20+00:00": 2.8
+      },
+      "details": {
+        "species": "Cat",
+        "breed": "Persian",
+        "favoriteFood": "Turkey"
+      },
+      "pictureURL": "/assets/luna.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Max",
+      "weightHistory": {
+        "2016-11-22T10:00:00+00:00": 30.5,
+        "2016-11-29T10:30:00+00:00": 30.0,
+        "2016-12-06T11:00:00+00:00": 29.8,
+        "2016-12-13T11:30:00+00:00": 29.5
+      },
+      "details": {
+        "species": "Dog",
+        "breed": "German Shepherd",
+        "favoriteFood": "Lamb"
+      },
+      "pictureURL": "/assets/max.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Coco",
+      "weightHistory": {
+        "2015-05-05T09:00:00+00:00": 1.2,
+        "2015-05-12T09:15:00+00:00": 1.3,
+        "2015-05-19T09:30:00+00:00": 1.4
+      },
+      "details": {
+        "species": "Cat",
+        "breed": "Bengal",
+        "favoriteFood": "Duck"
+      },
+      "pictureURL": "/assets/coco.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Nibbles",
+      "weightHistory": {
+        "2021-04-10T08:00:00+00:00": 0.5,
+        "2021-04-17T08:15:00+00:00": 0.6
+      },
+      "details": {
+        "species": "Hamster",
+        "breed": "Syrian",
+        "favoriteFood": "Sunflower Seeds"
+      },
+      "pictureURL": "/assets/nibbles.png"
+    },
+    {
+      "id": 9,
+      "name": "Simba",
+      "weightHistory": {},
+      "details": {
+        "species": "Cat",
+        "breed": "Ragdoll",
+        "favoriteFood": "Chicken"
+      },
+      "pictureURL": "/assets/simba.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Daisy",
+      "weightHistory": {
+        "2022-07-10T08:00:00+00:00": 6.5,
+        "2022-07-17T08:20:00+00:00": 6.6,
+        "2022-07-24T08:30:00+00:00": 6.7,
+        "2022-07-31T08:40:00+00:00": 6.8
+      },
+      "details": {
+        "species": "Dog",
+        "breed": "Poodle",
+        "favoriteFood": "Salmon"
+      },
+      "pictureURL": "/assets/daisy.png"
+    },
+    {
+      "id": 11,
+      "name": "Thumper",
+      "weightHistory": {
+        "2021-01-15T10:00:00+00:00": 1.8,
+        "2021-02-15T10:30:00+00:00": 1.9,
+        "2021-03-15T11:00:00+00:00": 2.0,
+        "2021-04-15T11:30:00+00:00": 2.1
+      },
+      "details": {
+        "species": "Rabbit",
+        "breed": "Holland Lop",
+        "favoriteFood": "Carrots"
+      },
+      "pictureURL": "/assets/thumper.png"
+    },
+    {
+      "id": 12,
+      "name": "Goldie",
+      "weightHistory": {},
+      "details": {
+        "species": "Fish",
+        "breed": "Goldfish",
+        "favoriteFood": "Flakes"
+      },
+      "pictureURL": "/assets/goldie.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Rozi",
+      "weightHistory": {
+        "2023-01-01T08:00:00+00:00": 8.5,
+        "2023-02-01T08:00:00+00:00": 8.6,
+        "2023-03-01T08:00:00+00:00": 8.7
+      },
+      "details": {
+        "species": "Dog",
+        "breed": "Dachshund",
+        "favoriteFood": "bones"
+      },
+      "pictureURL": "/assets/rozi.png"
+    }
+  ]
+  

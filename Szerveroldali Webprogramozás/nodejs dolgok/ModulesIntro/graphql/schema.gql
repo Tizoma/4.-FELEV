@@ -1,0 +1,91 @@
+scalar DateTime
+
+type Query {
+    hello: String!,
+    hello2(name: String!): String!,
+    isEven(num: Int!): Boolean!,
+    categories: [Category!]!,
+    posts: [Post!]!,
+    categoryById(id: ID): Category,
+    statistics: statistics
+}
+
+type Mutation {
+    createCategory1(name: String!, color: String!): Category!,
+    createCategory2(input: CategoryInput!): Category!,
+    createPost(input: PostInput!): Post!,
+}
+
+input PostInput {
+    title: String!,
+    content: String!,
+    date: DateTime,
+    published: Boolean,
+    authorId: ID!
+    categories: [ID!]!
+}
+
+input CategoryInput {
+    name: String!,
+    color: String!
+}
+
+type statistics {
+    postCount: Int!,
+    userCount: Int!,
+    postPerUser: Float!
+}
+
+type Category {
+    dummy: String!
+    id: ID!,
+    name: String!,
+    color: String!,
+    posts: [Post!]!
+}
+
+type Post {
+    id: ID!,
+    title: String!,
+    content: String!,
+    published: Boolean!
+    authorId: ID!,
+    createdAt: DateTime!,
+    updatedAt: DateTime!,
+    categories: [Category!]!,
+    user: User!
+}
+
+type User {
+    id: ID!,
+    name: String!,
+    email: String!,
+    createdAt: DateTime!,
+    updatedAt: DateTime!,
+}
+
+#query {
+#  statistics {
+#    userCount,
+#    postCount,
+#    postPerUser
+#  }
+#  categoryById(id: 1) {
+#    name
+#  }
+#  #hello,
+#  isEven(num: 5),
+#  hello2(name: "XY"),
+#  categories {
+#    dummy,
+#    id,
+#    name,
+#    color,
+#    posts {
+#      id,
+#      categories {
+#      	id
+#    	}
+#    },
+#  },
+#}

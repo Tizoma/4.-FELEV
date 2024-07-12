@@ -1,0 +1,58 @@
+type Query {
+    locations: [Location!]!
+    weather: [Weather!]!
+    location(id: ID!): Location
+    statistics: Statistics!
+}
+
+type Mutation {
+    createWeather(input: CreateWeatherInput!): Weather
+    setPublic(LocationId: ID!, public: Boolean!): String!
+}
+
+type Location {
+    id: ID!
+    name: String!
+    lat: Float!
+    lon: Float!
+    public: Boolean!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    currentTemp: Float
+}
+
+type Weather {
+    id: ID!
+    type: String!
+    LocationId: ID!
+    temp: Float!
+    loggedAt: DateTime!
+    createdAt: DateTime!
+    updatedAt: DateTime!
+    location: Location!
+    warnings: [Warning!]!
+}
+
+type Statistics {
+    locationCount: Int!
+    averageTemp: Float!
+    over30Celsius: Int!
+    multipleWarnings: Int!
+    mostActiveLocation: Location!
+}
+
+type Warning {
+    id: ID!
+    level: Int!
+    message: String
+    createdAt: DateTime!
+    updatedAt: DateTime!
+}
+
+input CreateWeatherInput {
+    type: String!
+    LocationId: ID!
+    temp: Float!
+    loggedAt: DateTime!
+    
+}

@@ -1,0 +1,26 @@
+{
+  "name": "modulesintro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db": "npx rimraf database/database.sqlite && npx sequelize db:migrate --debug && npx sequelize db:seed:all --debug",
+    "dev": "npx nodemon -e js,mjs,json,gql server.js"
+  },
+  "author": "VAdam",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@fastify/jwt": "^8.0.0",
+    "cowsay": "^1.6.0",
+    "fastify": "^4.26.2",
+    "graphql-scalars": "^1.23.0",
+    "mercurius": "^14.1.0",
+    "nodemon": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7"
+  }
+}
